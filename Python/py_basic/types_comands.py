@@ -63,10 +63,11 @@ text = f'A {nome} {sobrenome} é uma excelente {profissao}'
 print(text)
 '''
 
-msg = 'eu gosto de joGar'
+msg = '         eu gosto de joGar'
 #index 0123456789
 print(msg.lower())
 print(msg.upper())
 print(msg.capitalize()) #primeira letra em maiuscula
 print(msg.find('de')) #informa o index
-print(msg.replace('joGar', 'programar'))
+print(msg.replace('joGar', 'programar')) #faz a troca
+print(msg.strip()) #retira espaco que sobra
