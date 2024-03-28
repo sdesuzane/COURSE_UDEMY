@@ -15,27 +15,6 @@ antes de 48°C imprimir "Cozinhar por mais alguns minutos"
 
 '''
 
-#O QUE EU FIZ SOZINHA #
-# temperatura_celsius = int(input('Digite a temperatura da carne: '))
-
-# if temperatura_celsius < 48:
-#     print('Cozinhar por mais alguns minutos')
-# elif temperatura_celsius == 48:
-#     print('Selada')
-# elif temperatura_celsius == 54:
-#     print('Ao ponto para mal')
-# elif temperatura_celsius == 60:
-#     print('Ao ponto')
-# elif temperatura_celsius == 65:
-#     print('Ao ponto para o bem')
-# elif temperatura_celsius == 71:
-#     print('Bem passada')
-# else:
-#     print('Temperatura não suportada')
-
-# print(temperatura_celsius)
-
-# com ajuda do professor #
 temperatura_celsius = int(input('Digite a temperatura da carne: '))
 
 if temperatura_celsius < 48:
